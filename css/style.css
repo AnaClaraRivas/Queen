@@ -58,6 +58,13 @@ body{
     margin-top: 5%;
 }
 
+@media (max-width: 768px) {
+    .queenrow .col {
+      flex: 0 0 50%; /* 2 colunas por linha no celular */
+    }
+  }
+
+
 
 
 .paginicial{
