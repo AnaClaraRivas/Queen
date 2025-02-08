@@ -38,6 +38,21 @@ body{
     animation: sombraPiscante 2s infinite; /* Duração de 4 segundos, repetindo infinitamente */
   }
 
+
+  
+  .navbar-toggler-icon {
+    background-color: rgba(255, 174, 0, 0.534); /* Cor do ícone do menu (três barras) */
+  }
+  
+  /* Responsividade para telas pequenas, o botão ficará no lado direito */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      position: absolute; /* Faz o botão ficar no canto direito */
+      right: 10px; /* Ajusta a posição para o lado direito */
+      top: 15px; /* Ajuste vertical */
+    }
+  }
+
 /* PAG */
 
 .iniciocol{
